@@ -1,0 +1,16 @@
+<launch>
+
+  <!-- TF -->
+  <include file="$(env HOME)/shared_dir/autoware-data/data/tf/tf.launch"/>
+
+  <!-- Point Cloud -->
+  <!-- Note: this is generated from simulator -->
+  <node pkg="map_file" type="points_map_loader" name="points_map_loader" args="noupdate 
+   /home/shaohua/Develop/Autoware_lgsvl_ncku/ros/autoware-190528.pcd
+   "
+  />
+
+  <!-- Vector Map -->
+  />
+
+</launch>

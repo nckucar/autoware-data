@@ -8,7 +8,7 @@
   <include file="$(find astar_planner)/launch/obstacle_avoid.launch"/>
 
   <!-- velocity_set -->
-  <!--include file="$(find astar_planner)/launch/velocity_set.launch"/-->
+  <include file="$(find astar_planner)/launch/velocity_set.launch"/>
 
   <!-- pure_pursuit -->
   <!-- <node pkg="rostopic" type="rostopic" name="config_waypoint_follower_rostopic"

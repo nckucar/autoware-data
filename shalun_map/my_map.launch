@@ -6,24 +6,14 @@
   <!-- Point Cloud -->
   <!-- Note: this is generated from simulator -->
   <node pkg="map_file" type="points_map_loader" name="points_map_loader" args="noupdate
-    $(env HOME)/shalun-v1.0.0-20190611-1.pcd
-    $(env HOME)/shalun-v1.0.0-20190611-2.pcd
-    $(env HOME)/shalun-v1.0.0-20190611-3.pcd
-    $(env HOME)/shalun-v1.0.0-20190611-4.pcd
-    $(env HOME)/shalun-v1.0.0-20190611-5.pcd
-    $(env HOME)/shalun-v1.0.0-20190611-6.pcd
-    $(env HOME)/shalun-v1.0.0-20190611-7.pcd"
+    $(env HOME)/shared_dir/autoware-data/data/map/shalun/20190611/shalun-v1.0.0-20190611-1.pcd
+    $(env HOME)/shared_dir/autoware-data/data/map/shalun/20190611/shalun-v1.0.0-20190611-2.pcd
+    $(env HOME)/shared_dir/autoware-data/data/map/shalun/20190611/shalun-v1.0.0-20190611-3.pcd
+    $(env HOME)/shared_dir/autoware-data/data/map/shalun/20190611/shalun-v1.0.0-20190611-4.pcd
+    $(env HOME)/shared_dir/autoware-data/data/map/shalun/20190611/shalun-v1.0.0-20190611-5.pcd
+    $(env HOME)/shared_dir/autoware-data/data/map/shalun/20190611/shalun-v1.0.0-20190611-6.pcd
+    $(env HOME)/shared_dir/autoware-data/data/map/shalun/20190611/shalun-v1.0.0-20190611-7.pcd"
   />
-
-  <!-- $(env HOME)/shared_dir/autoware-data/data/map/shalun/shalun_20190220_1.pcd
-   $(env HOME)/shared_dir/autoware-data/data/map/shalun/shalun_20190220_2.pcd
-   $(env HOME)/shared_dir/autoware-data/data/map/shalun/shalun_20190220_3.pcd
-   $(env HOME)/shared_dir/autoware-data/data/map/shalun/shalun_20190220_4.pcd
-   $(env HOME)/shared_dir/autoware-data/data/map/shalun/shalun_20190220_5.pcd
-   $(env HOME)/shared_dir/autoware-data/data/map/shalun/shalun_20190220_6.pcd
-   $(env HOME)/shared_dir/autoware-data/data/map/shalun/shalun_20190220_7.pcd
-   
-  /-->
 
   <!-- Vector Map -->
   />

@@ -47,12 +47,12 @@
   </include> -->
 
   <!-- ssd -->
-  <include file="$(find vision_ssd_detect)/launch/vision_ssd_detect.launch">
+  <!-- include file="$(find vision_ssd_detect)/launch/vision_ssd_detect.launch">
     <arg name="use_gpu" value="$(arg is_use_gpu)" />
     <arg name="score_threshold" default="0.8" />
     <arg name="network_definition_file" default="$(env HOME)/ssdcaffe/models/VGGNet/VOC0712Plus/SSD_512x512_ft/deploy.prototxt" />
     <arg name="pretrained_model_file" default="$(env HOME)/ssdcaffe/models/VGGNet/VOC0712Plus/SSD_512x512_ft/VGG_VOC0712Plus_SSD_512x512_ft_iter_160000.caffemodel" />
-  </include>
+  </include -->
 
   <!-- range_fusion -->
   <include file="$(find range_fusion)/launch/range_fusion.launch">
